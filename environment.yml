@@ -1,10 +1,6 @@
-name: data-science-environment
+name: quick-start-jupyter-notebook-credential-management
 
 dependencies:
   - ipython
-  - matplotlib
-  - pandas
   - python
-  - scikit-learn
   - pip
-    - tensorflow=1.13
