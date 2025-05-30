@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "Powell, J. I. (2025, May 30). Securely Handling Credentials in Local Code Notebooks. United States."
+message: "Powell, J. I. (2025, May 30). Ideas for Securely Handling Credentials in Local Code Notebooks. United States."
 authors:
 - family-names: "Powell"
   given-names: "J.I."
   orcid: "https://orcid.org/0000-0002-0894-2399"
-title: "Securely Handling Credentials in Local Code Notebooks"
+title: "Ideas for Securely Handling Credentials in Local Code Notebooks"
 version: 1.0.0
 doi: "00.0000/00000000.0000.0000000"
 date-released: 2025-05-30
