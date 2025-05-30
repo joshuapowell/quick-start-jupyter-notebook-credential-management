@@ -1,0 +1,10 @@
+name: data-science-environment
+
+dependencies:
+  - ipython
+  - matplotlib
+  - pandas
+  - python
+  - scikit-learn
+  - pip
+    - tensorflow=1.13
