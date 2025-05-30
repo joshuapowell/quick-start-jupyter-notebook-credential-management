@@ -52,7 +52,7 @@ api_key = os.getenv("API_KEY")
 Using a configuration file through a `.env`, `.json`, or `.yml` file is convenient and provides another layer of protection over simply storing your credentials in your operating system environment. It is important to make sure that you add this file to your `.gitignore` to prevent accidentally uploading it to version control.
 
 ```python
-# Example using a .env file
+import os
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -61,6 +61,8 @@ password = os.getenv("PASSWORD")
 
 api_key = os.getenv("API_KEY")
 ```
+
+Note: The example above requires a `.env` file to exist in the repository and requires that you install the `dotenv` Python package.
 
 ### 3.4 Secrets Managers
 Using a cloud-based secret manager provides a few added benefits. First, the credentials are stored in an encrypted manner off-machine. Second, it reduces the risk of those secrets being exposed to version control by mistake. Finally, it moves the management of those secrets from you and your machine to your organization and it's cloud security policies.
