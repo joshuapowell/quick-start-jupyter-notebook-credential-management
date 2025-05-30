@@ -1,5 +1,22 @@
-The content, including but not limited to code, text, images, audio, and/or video, hereafter referred to as "content", in this document are provided for informational and educational purposes only. TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE AUTHOR PROVIDES THIS DOCUMENT "AS IS" WITHOUT WARRANTY OF ANY KIND, INCLUDING WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. In no event shall the author or their employer be liable for any claim, damages or other liability, direct or indirect, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the code and content or the use or other dealings in the code and content. Use this code and all other content at your own risk.
+Copyright © 2025 Joshua Powell
+All rights reserved.
 
-Third-party API Disclaimer: Additionally, the code examples in this post may interact with third-party APIs and services. The availability and functionality of these APIs are subject to change without notice. The author is not responsible for any issues arising from changes to these APIs or any downtime or limitations imposed by the service providers. You are responsible for complying with the terms of service and usage policies of any third-party APIs you use in conjunction with this code. Use this code at your own risk, and be aware of potential security implications when connecting to external services.
-
-Product Link Disclaimer: This blog post may contain links to products or services available for purchase. These links are provided to offer readers additional information and resources. The author's opinions expressed in this post are independent and not influenced by any potential commercial relationships. No compensation is received for including these links, and their presence does not constitute an endorsement. Readers are encouraged to conduct their own research before making any purchasing decisions.
+All information contained herein is, and remains the property of
+Joshua Powell or it's respective copyright holders where applicable. 
+The intellectual and technical concepts contained herein, are proprietary to 
+Joshua Powell and may be covered by U.S. and Foreign Patents, patents in 
+process, and are protected by trade secret or copyright law. Dissemination of
+this information or reproduction of this material is strictly forbidden unless
+prior written permission is obtained from Joshua Powell.
+ 
+The content, including but not limited to code, text, images, audio, and
+video, hereafter referred to as "content", in this document are provided
+for informational and educational purposes only. TO THE EXTENT PERMITTED 
+BY APPLICABLE LAW, THE AUTHOR PROVIDES THIS DOCUMENT "AS IS" WITHOUT WARRANTY
+OF ANY KIND, INCLUDING WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. In no 
+event shall the author or their employer be liable for any claim, damages or 
+other liability, direct or indirect, whether in an action of contract, tort 
+or otherwise, arising from, out of or in connection with the code and content
+or the use or other dealings in the code and content. Use this code and all 
+other content at your own risk.
