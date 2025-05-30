@@ -1,4 +1,4 @@
-# Securely Handling Credentials in Local Code Notebooks
+# Ideas for Securely Handling Credentials in Local Code Notebooks
 
 ## Abstract
 
