@@ -34,6 +34,8 @@ password = getpass.getpass("Enter Password: ")
 api_key = getpass.getpass("Enter API Key: ")
 ```
 
+See [example notebook with executable code here](./examples/credential-management-interactive-prompt.ipynb).
+
 ### 3.2 Use Environment Variables
 Using environment variables is a fast way to access credentials from within a notebook without storing the credentials inside of the notebook code. Using this method prevents you from hard coding credentials directly in your code and avoids an accidental exposure to your repository via version control; the environment variables are most likely stored in plain text on your local development environment.
 
@@ -47,6 +49,8 @@ password = os.getenv("PASSWORD")
 
 api_key = os.getenv("API_KEY")
 ```
+
+See [example notebook with executable code here](./examples/credential-management-environment-variables.ipynb).
 
 ### 3.3 Configuration Files
 Using a configuration file through a `.env`, `.json`, or `.yml` file is convenient and provides another layer of protection over simply storing your credentials in your operating system environment. It is important to make sure that you add this file to your `.gitignore` to prevent accidentally uploading it to version control.
@@ -62,6 +66,8 @@ password = os.getenv("PASSWORD")
 api_key = os.getenv("API_KEY")
 ```
 
+See [example notebook with executable code here](./examples/credential-management-configuration-file.ipynb).
+
 Note: The example above requires a `.env` file to exist in the repository and requires that you install the `dotenv` Python package.
 
 ### 3.4 Secrets Managers
@@ -74,7 +80,7 @@ Using a cloud-based secret manager provides a few added benefits. First, the cre
 - [IBM Cloud Secret Manager](https://www.ibm.com/products/secrets-manager)
 - [Microsoft Azure](https://azure.microsoft.com/en-us/products/key-vault/)
 
-Each cloud provider has its own Python SDK and methods of accessing secrets within your notebook. One example, from the Google Cloud Platform, looks like this [2]:
+Each cloud provider has its own Python SDK and methods of accessing secrets within your notebook. As an example the Google Cloud Platform implementation might look like this [2]:
 
 ```python
 def get_secret(project_id: str, secret_id: str) -> secretmanager.GetSecretRequest:
