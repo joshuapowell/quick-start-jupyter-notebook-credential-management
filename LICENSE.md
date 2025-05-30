@@ -1,4 +1,4 @@
-Copyright © 2025 Joshua Powell
+Copyright &copy; 2025 Joshua Powell
 All rights reserved.
 
 All information contained herein is, and remains the property of
