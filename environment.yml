@@ -1,6 +1,0 @@
-name: quick-start-jupyter-notebook-credential-management
-
-dependencies:
-  - ipython
-  - python
-  - pip
